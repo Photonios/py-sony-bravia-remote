@@ -1,0 +1,9 @@
+strictness: veryhigh
+test-warnings: true
+doc-warnings: false
+max-line-length: 80
+
+ignore-paths:
+  - env
+  - .tox
+  - .git
