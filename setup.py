@@ -16,7 +16,7 @@ setup(
     url='https://github.com/Photonios/sony-bravia-remote',
     author='Swen Kooij',
     author_email='swenkooij@gmail.com',
-    keywords=['sony', 'bravia', 'remote']
+    keywords=['sony', 'bravia', 'remote'],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
