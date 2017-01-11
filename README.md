@@ -4,7 +4,7 @@ API that the TV exposes. This allows you to control things like changing the vol
 This API is the exact same API that the "Sony Remote" app uses to control the TV.
 
 ## Installation
-It's on Pip!
+For inclusion in another project, install through `pip`:
 
 ```bash
 pip install sony-bravia-remote
