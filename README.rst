@@ -1,10 +1,7 @@
-py-sony-bravia-remote
----------------------
-
-.. image:: https://scrutinizer-ci.com/g/Photonios/py-sony-bravia-remote/badges/quality-score.png
+.. image:: https://scrutinizer-ci.com/g/Photonios/py-sony-bravia-remote/badges/build.png
     :target: https://scrutinizer-ci.com/g/SectorLabs/py-sony-bravia-remote/
 
-.. image:: https://scrutinizer-ci.com/g/Photonios/py-sony-bravia-remote/badges/build.png
+.. image:: https://scrutinizer-ci.com/g/Photonios/py-sony-bravia-remote/badges/quality-score.png
     :target: https://scrutinizer-ci.com/g/SectorLabs/py-sony-bravia-remote/
 
 .. image:: https://img.shields.io/:license-mit-blue.svg
