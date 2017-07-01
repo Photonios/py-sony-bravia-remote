@@ -17,6 +17,9 @@ setup(
     author='Swen Kooij',
     author_email='swenkooij@gmail.com',
     keywords=['sony', 'bravia', 'remote'],
+    install_requires=[
+        'requests==2.12.4'
+    ],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
