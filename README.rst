@@ -1,3 +1,19 @@
+py-sony-bravia-remote
+---------------------
+
+.. image:: https://scrutinizer-ci.com/g/Photonios/py-sony-bravia-remote/badges/quality-score.png
+    :target: https://scrutinizer-ci.com/g/SectorLabs/py-sony-bravia-remote/
+
+.. image:: https://scrutinizer-ci.com/g/Photonios/py-sony-bravia-remote/badges/build.png
+    :target: https://scrutinizer-ci.com/g/SectorLabs/py-sony-bravia-remote/
+
+.. image:: https://img.shields.io/:license-mit-blue.svg
+    :target: http://doge.mit-license.org
+
+.. image:: https://badge.fury.io/py/py-sony-bravia-remote.svg
+    :target: https://pypi.python.org/pypi/py-sony-bravia-remote
+
+
 ``py-sony-bravia-remote`` is a Python 3 library for interfacing remotely with Sony Bravia TV's. It utilizes a undocumented HTTP
 API that the TV exposes. This allows you to control things like changing the volume, channel or turn the TV on and off.
 
