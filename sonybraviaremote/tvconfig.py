@@ -20,4 +20,4 @@ class TVConfig:
         """
 
         self.host = host
-        self.device_name = nickname
+        self.device_name = device_name
