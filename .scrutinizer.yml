@@ -11,7 +11,7 @@ build:
         python: 3.5.0
     dependencies:
         before:
-            - pip install -r requirements.txt
+            - python setup.py develop
 filter:
     excluded_paths:
         - 'tests/*'
