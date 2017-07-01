@@ -33,7 +33,7 @@ class TV:
         payload = {
             'method': 'getRemoteControllerInfo',
             'params':[],
-            'id':10,
+            'id': 10,
             'version':'1.0'
         }
 
@@ -55,6 +55,25 @@ class TV:
             irc_codes[entry['name']] = entry['value']
 
         return irc_codes
+
+    def is_on(self):
+        """Gets whether the TV is turned on or not."""
+
+        url = 'http://%s/sony/system' % self.config.host
+        payload = {
+            'method': 'getPowerStatus',
+            'params':[],
+            'id': 10,
+            'version':'1.0'
+        }
+
+        response = requests.post(url, data=json.dumps(payload))
+
+        if response.status_code != 200:
+            raise RuntimeError(response.body)
+
+        data = response.json()
+        return data['result'][0]['status'] == 'active'
 
     def mute(self):
         self._send_irc_code('Mute')

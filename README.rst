@@ -43,6 +43,7 @@ Example usage
     config = TVConfig('192.168.0.23', 'my device name')
     tv = TV(config, on_auth)
 
+    tv.is_on() # true/false
     tv.wake_up()
     tv.power_off()
     tv.netflix()
