@@ -41,7 +41,7 @@ Example usage
     # your program will be registered... note that if you change the device
     # name, you have to re-auth
     config = TVConfig('192.168.0.23', 'my device name')
-    tv = TV(config, on_auth)
+    tv = TV.connect(config, on_auth)
 
     tv.is_on() # true/false
     tv.wake_up()
